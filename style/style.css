@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header,
+main {
+  flex-grow: 1;
+}
+.aside-menu {
+  display: flex;
+}
+aside {
+  min-width: 250px;
+  /* min-height: 100vh; */
+}
+aside img {
+  width: 30px;
+}
+header {
+  display: flex;
+}
+main {
+  display: flex;
+}
+
+.cards div {
+  border-radius: 20px;
+}
